@@ -1,0 +1,182 @@
+@import url(fonte.css);
+
+button{
+    all: unset;
+    cursor: pointer;
+    outline: revert;
+} /*Botão invisivel para os icones*/
+
+body{
+    overflow-x: hidden;
+}
+
+
+.cabecalho .menuYT{
+    display: flex;
+    justify-content: space-between; /*Divide os elementos em espaços iguais*/
+    width: 1270px; /*Largura*/
+    height: 56px;
+    padding: 0px 16px 0px 16px;
+
+
+  
+}
+
+
+/*CONTAINER DE PESQUISA*/
+.cabecalho .menupesquisa{
+    display: flex;
+    width: 404px;
+    height: 40px;
+}
+
+.cabecalho .menupesquisa .pesquisa{
+    display: flex;
+    width: 348px;
+    height: 36px;
+    top: 8px;
+    left: 526px;
+    border: 1px solid #CCCCCC;
+}
+
+.cabecalho .menupesquisa .btnpesquisa{
+    display: flex;
+    width: 57px;
+    height: 38px;
+    top: 8px;
+    left: 873px;
+    border: 1px solid #CCCCCC;
+    justify-content: center;
+    align-items: center;
+}
+
+/*CONTAINER DE PESQUISA*/
+
+.cabecalho .menufinal{
+    width: 130px;
+    height: 34px;
+    
+}
+
+/*PERSONALIZANDO AS IMAGENS DENTRO DOS CONTAINERS*/
+.iconlinhas{
+    height: 24px;
+    width: 24px;
+    top: 16px;
+    left: 24px;
+    margin-right: 20px;
+}
+
+.iconlupa{
+    height: 24px;
+    width: 24px;
+    top: 16px;
+    left: 887px;
+}
+
+.icones{
+    height: 24px;
+    width: 24px;
+    margin-right: 16px;
+}
+
+.fotoperfil{
+    width: 34px;
+    height: 34px;
+    border-radius: 50%;
+}
+
+
+/*Home Page*/
+
+.container{
+    display:grid;
+
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 3px;
+}
+
+.videogrid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 13px;
+    padding: 16px;
+    margin-top: 40px;
+    margin-bottom: -70px;
+}
+
+.videos{
+    
+    width: 255px;
+    height: 140.29px;
+    position: relative;
+}
+
+.videos img{
+    width:230px;
+    height: 120.29px;
+
+}
+
+
+
+
+
+/*Estilizando o padrao dos quadrados*/
+.fotocanal img{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.nomevideo{
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16.41px;
+    width: 197px;
+    height: 74px;
+
+}
+
+.infoview{
+    margin-top: -40px;
+    margin-left: 40px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    width: 197px;
+    height: 74px;
+
+  
+    
+}
+
+.lateralgrid{
+    display: grid;
+    width: 218px;
+    height: 590px;
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 25px;
+}
+
+
+
+.iconlateral{
+    width: 24px;
+    height: 24px;
+}
+
+.nomeicon{
+    width: 150px;
+    height: 16px;
+    margin-top: 5.8px;
+    margin-right: 40px;
+}
+#bold{
+    font-weight: 500;
+    size:14px;
+    line-height: 16.41px;
+}
